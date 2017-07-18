@@ -15,6 +15,7 @@ fun checkParenthesis(input: String): Boolean {
     return openersStack.size == 0
 }
 
+// add a comment to see if pushing works
 fun isCorresponding(opener: Char, char: Char): Boolean {
     when (opener) {
         '(' -> return char.equals(')')
